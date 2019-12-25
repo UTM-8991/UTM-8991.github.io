@@ -59,21 +59,22 @@ a {
   text-decoration: none;
 }
 .post,.about {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 60px 0;
 }
 .post-author img{
-  width: 50px;
-  height: 50px;
+  width: 175px;
+  height: 175px;
   vertical-align: middle;
 }
 .post-author span {
-  margin-left: 16px;
+  font-size: 30px;
+  margin-left: px;
 }
 .post-date {
   color: #D2D2D2;
-  font-size: 14px;
+  font-size: 25px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
@@ -82,6 +83,7 @@ h1,h2,h3,h4 {
 }
 p{
   line-height: 1.5;
+  font-size: 25px;
 }
 .about{
   text-align: center;
@@ -92,4 +94,7 @@ p{
 }
 .post-container:nth-child(even) {
   background-color: #f2f2f2;
+}
+h3 {
+  font-size: 30px;
 }
